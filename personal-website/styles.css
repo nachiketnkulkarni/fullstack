@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  color: #66bfbf;
+}
+
+h2 {
+  margin: 40 auto 20 auto;
+  color: #66bfbf;
+}
+
+h3 {
+  margin: 0 auto 0 auto;
+  color: #11999e;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted;
+  border-width: thick;
+  border-top: thick;
+  color: #eaf6f6;
+  margin-top: 40px;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 80px;
+  background-color: #d0e8f2;
+}
+
+.title {
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  padding: 24px 0 0 0;
+}
+.subTitle {
+  font-family: "Sacramento", cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+}
+
+.middle-container {
+}
+
+.myInfo {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill-row {
+  /* display: inline-block; */
+  width: 50%;
+  margin: 100 auto;
+  line-height: 2;
+}
+.leftAlign {
+  text-align: left;
+}
+
+.skill-img-chillis {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-computer {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #66bfbf;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5 5 40 5;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+/* .button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+} */
+.bottom-container {
+  background-color: #66bfbf;
+  height: 150px;
+}
+.footer-link-container {
+  width: 50%;
+  padding-top: 35;
+  margin: 0 auto;
+}
+.footer-link {
+  color: #11999e;
+  margin: 10;
+}
+
+.footer-name {
+  margin-top: 40;
+  color: #eaf6f6;
+}
